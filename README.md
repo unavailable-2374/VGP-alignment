@@ -4,11 +4,11 @@ A large-scale genomic alignment pipeline for processing Vertebrate Genomes Proje
 
 ## Overview
 
-This pipeline performs all-vs-all pairwise genome alignments across 582 vertebrate genome assemblies from the VGP project. It uses [wfmash](https://github.com/waveygang/wfmash) for efficient sequence alignment and is designed to run on SLURM-managed HPC systems.
+This pipeline performs all-vs-all pairwise genome alignments across 581 vertebrate genome assemblies from the VGP project. It uses [wfmash](https://github.com/waveygang/wfmash) for efficient sequence alignment and is designed to run on SLURM-managed HPC systems.
 
 ## Features
 
-- **Large-scale processing**: Handles 582 genome assemblies (>338,000 pairwise comparisons)
+- **Large-scale processing**: Handles 581 genome assemblies (>338,000 pairwise comparisons)
 - **HPC optimized**: Designed for distributed execution on SLURM clusters
 - **Fault tolerance**: Job status tracking and automatic resume capability
 - **Resource monitoring**: Memory and timing statistics collection
