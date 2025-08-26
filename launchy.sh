@@ -20,5 +20,5 @@ module load python
 module load pylauncher
 
 mkdir pafs logs times status
-python run_pylauncher.py "$cmdfile"
-#python -c "from pylauncher import ClassicLauncher; ClassicLauncher('"$cmdfile"')"
+#python run_pylauncher.py "$cmdfile"
+python -c "from pylauncher import ClassicLauncher; ClassicLauncher('$cmdfile', cores='node')"
